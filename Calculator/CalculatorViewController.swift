@@ -9,16 +9,25 @@
 import UIKit
 
 class CalculatorViewController: UIViewController {
+    let brain: CalculatorBrain
+    var operand1: Double?
+    var operand2: Double?
+    init() {
+        
+    }
+    
     
     @IBOutlet weak var outputLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        }
     }
     
     // MARK: - Action Handlers
     
     @IBAction func operandTapped(_ sender: UIButton) {
+        if 
         
     }
     
